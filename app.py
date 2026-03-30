@@ -8,6 +8,9 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
 
+import os
+API_KEY = os.getenv("API_KEY")
+
 # -----------------------------
 # Config
 # -----------------------------
